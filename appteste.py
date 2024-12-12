@@ -8,7 +8,7 @@ print(x)
 
 #Código utilizado na aula para debugar (acharmos o erro):
 
-print('Olá')
+'''print('Olá')
 
 def calcular_preco_combo(pizza, refrigerante):
 
@@ -17,4 +17,11 @@ def calcular_preco_combo(pizza, refrigerante):
 
 calcular_preco_combo(30, 'vinte reais')
 
-print('Programa finalizado')
+print('Programa finalizado')'''
+
+#importando biblioteca pyautogui
+
+import pyautogui
+
+x = pyautogui.position().x
+print(x)
